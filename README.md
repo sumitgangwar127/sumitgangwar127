@@ -1,5 +1,5 @@
 <!-- Header banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Sumit%20Gangwar&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%A2%20Frontend%20%26%20Backend&descSize=20&descAlignY=60&animation=fadeIn" alt="Sumit Gangwar" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Sumit%20Gangwar&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer&descSize=22&descAlignY=62" alt="Sumit Gangwar" />
 
 <div align="center">
 
@@ -108,8 +108,8 @@ const sumit = {
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=sumitgangwar127&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sumitgangwar127&layout=compact&theme=tokyonight&hide_border=true&border_radius=12" alt="Top languages" />
+  <img src="https://img.shields.io/github/followers/sumitgangwar127?style=for-the-badge&logo=github&color=2c5364" alt="Followers" />
+  <img src="https://img.shields.io/badge/Public%20Repos-30%2B-2c5364?style=for-the-badge&logo=github" alt="Public repos" />
   <br/><br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=sumitgangwar127&theme=tokyonight&hide_border=true&border_radius=12" alt="Streak" />
 </div>
