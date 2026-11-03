@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=61DAFB&center=true&vCenter=true&width=620&lines=Building+full-stack+apps+end+to+end;Author+of+the+ToastifyX+npm+library;Clean+UIs+on+the+front%2C+solid+APIs+on+the+back)](https://github.com/sumitgangwar127)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=61DAFB&center=true&vCenter=true&width=620&lines=Building+full-stack+apps+end+to+end;Author+of+ToastifyX+and+envguard;Clean+UIs+on+the+front%2C+solid+APIs+on+the+back)](https://github.com/sumitgangwar127)
 
 <p>
   <a href="https://www.linkedin.com/in/sumit-gangwar-a08a561b4/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -26,7 +26,7 @@ const sumit = {
   location: "Bengaluru, India",
   stack: ["React", "Next.js", "TypeScript", "Node.js", "Express", "Python", "Django REST"],
   data: ["MongoDB", "MySQL", "Redis"],
-  openSource: "ToastifyX, a zero-dependency toast library on npm",
+  openSource: ["ToastifyX — toast library on npm", "envguard — .env sync checker CLI"],
   currently: "Exploring AI-assisted workflows & automation",
 };
 ```
@@ -34,7 +34,7 @@ const sumit = {
 - 🧩 I build complete products, from **React / Next.js** interfaces to **Node.js / Express** and **Django REST** APIs
 - ⚡ I improve performance on both sides: lazy loading and memoization in the UI, Redis caching and N+1 fixes in the backend (~60% faster APIs)
 - 🚢 I set up CI/CD with Jenkins, Docker and Kubernetes, and automate workflows with n8n
-- 📦 I maintain **ToastifyX**, my own open-source npm package
+- 📦 I maintain **ToastifyX** (npm) and **envguard** (a dev CLI), both zero-dependency and MIT-licensed
 - 🏅 Best Performer award (2023) for dedication and cross-team delivery
 
 ---
@@ -83,6 +83,41 @@ ToastifyX.show({
 
 ---
 
+## 🛡️ Open Source: envguard
+
+<div align="center">
+
+<a href="https://github.com/sumitgangwar127/envguard/actions/workflows/ci.yml"><img src="https://github.com/sumitgangwar127/envguard/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
+<a href="https://github.com/sumitgangwar127/envguard"><img src="https://img.shields.io/badge/dependencies-0-2ea44f?style=for-the-badge" alt="zero dependencies" /></a>
+<a href="https://github.com/sumitgangwar127/envguard/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-2c5364?style=for-the-badge" alt="license" /></a>
+
+</div>
+
+A CLI that catches `.env` drift before it breaks someone's machine or a CI run — missing, undeclared, empty, placeholder and duplicated keys, checked against `.env.example` in one command.
+
+```bash
+npm install --save-dev envguard
+npx envguard --strict
+```
+
+```
+✖ Missing (in example, not in env):
+  - STRIPE_SECRET_KEY
+⚠ Placeholder-looking values:
+  - DATABASE_URL=your-database-url-here
+```
+
+<div align="center">
+
+<a href="https://sumitgangwar127.github.io/envguard/"><img src="https://img.shields.io/badge/Live%20Demo-sumitgangwar127.github.io%2Fenvguard-000000?style=for-the-badge&logo=githubpages&logoColor=white" alt="Live demo" /></a>
+<a href="https://github.com/sumitgangwar127/envguard"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+
+</div>
+
+**Try it live:** the [demo site](https://sumitgangwar127.github.io/envguard/) has a real playground — paste in your own `.env` and `.env.example` and it runs the actual checker in your browser.
+
+---
+
 ## 🧰 Tech Stack
 
 <div align="center">
@@ -125,37 +160,37 @@ ToastifyX.show({
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h3>🛡️ <a href="https://github.com/sumitgangwar127/envguard">envguard</a></h3>
+      <p>CLI that catches .env drift before it breaks CI. <a href="https://sumitgangwar127.github.io/envguard/">Live demo →</a></p>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+    </td>
+    <td width="50%" valign="top">
       <h3>🍞 <a href="https://github.com/sumitgangwar127/ToastifyX">ToastifyX</a></h3>
       <p>Zero-dependency toast library published on npm, with live docs.</p>
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>🛍️ <a href="https://github.com/sumitgangwar127/the-style-edit-pages">The Style Edit</a></h3>
       <p>Public website for The Style Edit, hosted on GitHub Pages.</p>
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>📄 <a href="https://github.com/sumitgangwar127/resume-flow">Resume Flow</a></h3>
       <p>Resume workflow app to build and manage resumes.</p>
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>🎯 <a href="https://github.com/sumitgangwar127/focusflow">FocusFlow</a></h3>
       <p>Focus and productivity app to stay on track.</p>
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>📈 <a href="https://github.com/sumitgangwar127/user-behavior-tracker">User Behavior Tracker</a></h3>
       <p>Tracks user behavior on the front end, with a <a href="https://github.com/sumitgangwar127/user-behavior-tracker-backend">Node backend</a>.</p>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-    </td>
-    <td width="50%" valign="top">
-      <h3>🖼️ <a href="https://github.com/sumitgangwar127/image-compressor">Image Compressor</a></h3>
-      <p>Compress images quickly in the browser.</p>
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
     </td>
   </tr>
