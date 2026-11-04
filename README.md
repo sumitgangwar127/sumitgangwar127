@@ -96,8 +96,8 @@ ToastifyX.show({
 A CLI that catches `.env` drift before it breaks someone's machine or a CI run — missing, undeclared, empty, placeholder and duplicated keys, checked against `.env.example` in one command.
 
 ```bash
-npm install --save-dev envguard
-npx envguard --strict
+npm install --save-dev @sumitgangwar127/envguard
+npx @sumitgangwar127/envguard --strict
 ```
 
 ```
